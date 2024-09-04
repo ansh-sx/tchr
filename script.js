@@ -1,7 +1,7 @@
 // Object containing messages for each teacher
 const teachers = {
     "Surbhi": {
-        message: "We promise to remember all your physics lessons, but only because you’ve made sure we can’t forget them even in our dreams! Between your 'gravitational' stare and 'magnetic' personality, you've got us all orbiting around you. Thank you for making physics as spicy as masala chai, and as unforgettable as a Bollywood plot twist!",
+        message: "Physics, ek aisa word, jisse har bachhe ki rooh kanmp jaati hai. Jo har bachhe ko uske sapne me dyne ki tarha aake darati hai kyunki yahna 1N = 10^5 dyne ke barabar hoti hai, aur yeh physic ek aisi abla naari hai jo newton par hi apni jaan chidakti hai.Par Newon aur uski saari physic hame dra ske usme itna dum nhi, Surbhi mam ke bache hai, ham kisi se kam nhMam ki physic ki knowledge aprampaar hai, hamare liye uphar hai, hmare har doubt ka vaar hai, aur kabi kabi to aisa lgta hai ki Newton bi doubt pushne mam je pass aata tha, apne hi diye gye laws ki theory Ist period mein aur numericals last period mein padh ke jata tha, aur jiss din test hota tha 'Please! aapne toh kaha hi nhi' keh kar test se bach jata thaBUT afsos har ek cheez apni energy ko liberate krte krte ek din khatam ho jati hai, aise hi ab hmari journey ki energy apni final velocity ko reach kr chuki hai but THANK YOU MAM hmari is displacement ko pythagoras triplet bnane mein aur hame Physic haste hasate complete krane ke liye",
         image: "image0.jpg"
     },
     "Rasika": {
