@@ -5,7 +5,7 @@ const teachers = {
         image: "image0.jpg"
     },
     "Rasika": {
-        message: "Your lessons have more twists and turns than a cricket match! We might not fully understand relativity yet, but one thing is clear: you're the star bowler in our academic league. Thanks for making even the toughest topics feel like a cakewalk!",
+        message: "'Chemistry' ek aisa subject, jahna chemicals ki mystery hai, jisko samajne ke liye har ek insaan ka dimag drd se karhata hai, jis subject mein uske concept se jyada uski limitations aur exceptions hai aise subject mein masters krna ek bahut badi accomplishment hai, jo ki aap achieve kar chukke ho aur hame bi kra rhe hooo. yahna har chapter ki tarha har topic ke sath hamare emotions attach hai, elevation in boiling point padhke hamari happiness elevate ho jati hai aur depression in freezing point padhke depression aa jata hai, aur henery baba ki baat hi shodo itna pressure diya hai ki lagta hai hum kudh cold drink hai aur hamare andar CO2 Bhaari jaa rhi ho.Chemistry hai organic jaise, dikhne me assan but samajhne mein nikal jaati hai jaan but aapsa teacher ho to mahan toh organic ho jati hai assan..But afsos toh iska hai ki hamari jo reaction start hui thi woh ab khatam hoti jaa rhi hai har ek din ke naye catalyst par apna naya rang dikhaa rahi hai But But We are sure Final Product bhut acha hoga kyunki woh aapse padha hua ek bachha hoga..",
         image: "imager.jpg"
     }
     // Add more teachers here
