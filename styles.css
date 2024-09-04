@@ -86,7 +86,7 @@ header {
 }
 
 .gallery {
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
