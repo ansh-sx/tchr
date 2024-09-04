@@ -4,14 +4,10 @@ const teachers = {
         message: "We promise to remember all your physics lessons, but only because you’ve made sure we can’t forget them even in our dreams! Between your 'gravitational' stare and 'magnetic' personality, you've got us all orbiting around you. Thank you for making physics as spicy as masala chai, and as unforgettable as a Bollywood plot twist!",
         image: "image0.jpg"
     },
-    "Mr. Einstein": {
+    "Rasika": {
         message: "Your lessons have more twists and turns than a cricket match! We might not fully understand relativity yet, but one thing is clear: you're the star bowler in our academic league. Thanks for making even the toughest topics feel like a cakewalk!",
-        image: "image1.jpg"
-    },
-    "Mrs. Curie": {
-        message: "Your radiance in the classroom makes us feel as if we’re glowing with knowledge. You’ve split more concepts for us than atoms in a nuclear reaction, and we can’t thank you enough for your endless energy and patience!",
-        image: "image2.jpg"
-    },
+        image: "imager.jpg"
+    }
     // Add more teachers here
 };
 
