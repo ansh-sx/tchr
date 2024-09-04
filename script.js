@@ -20,7 +20,7 @@ function login() {
     const teacherName = document.getElementById('teacherNameInput').value;
     if (teacherName && teachers[teacherName]) {
         document.getElementById('teacherNameDisplay').textContent = teacherName;
-        document.getElementById('greeting').textContent = `Dear ${teacherName},`;
+        document.getElementById('greeting').textContent = `Mrs ${teacherName} Sharma,`;
         document.getElementById('messageText').textContent = teachers[teacherName].message;
         
         // Optionally change the main image based on the teacher
