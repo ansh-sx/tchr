@@ -6,7 +6,7 @@ body, h1, p {
 }
 
 body {
-    background: linear-gradient(to left, #000000, #040f70);
+    background: linear-gradient(to left, #adffb8, #ffadf8);
     color: #333;
     line-height: 1.6;
     display: flex;
