@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  background: linear-gradient(to left, #040f70, #3c00ff);
+  background: #388E3C;
 
   color: white;
 
@@ -81,7 +81,7 @@ header {
 .teacher-name {
     margin-top: 10px;
     font-size: 1.5em;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
