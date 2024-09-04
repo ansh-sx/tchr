@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers' Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="loginOverlay" class="login-overlay">
+        <div class="login-box">
+            <h2>Enter Your Name</h2>
+            <input type="text" id="teacherNameInput" placeholder="Your Name">
+            <button onclick="login()">Login</button>
+        </div>
+    </div>
+
+    <header>
+        <h1>Happy Teachers' Day!</h1>
+    </header>
+
+    <section class="message">
+        <p id="greeting"></p>
+        <p id="messageText"></p>
+    </section>
+
+    <section class="main-photo">
+        <img src="image0.jpg" alt="Teacher Image" class="center-block">
+        <p class="teacher-name" id="teacherNameDisplay"></p>
+    </section>
+
+    <section class="gallery">
+        <img src="image1.jpg" alt="Image 1" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image2.jpg" alt="Image 2" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image3.jpg" alt="Image 3" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image4.jpg" alt="Image 4" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image5.jpg" alt="Image 5" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image6.jpg" alt="Image 6" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image7.jpg" alt="Image 7" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image8.jpg" alt="Image 8" class="color-block" onclick="viewFullScreen(this.src)">
+        <img src="image9.jpg" alt="Image 9" class="color-block" onclick="viewFullScreen(this.src)">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dedicated to All Wonderful Teachers</p>
+    </footer>
+
+    <div id="fullScreenOverlay" class="overlay" onclick="closeFullScreen()">
+        <img src="" alt="Full Screen Image" class="full-screen-block">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
