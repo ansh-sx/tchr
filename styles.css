@@ -1,8 +1,24 @@
+/* Define the custom font */
+@font-face {
+    font-family: 'Hanford Script';
+    src: url('font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the custom font to the header */
+header h1 {
+    font-family: 'Hanford Script', sans-serif;
+    font-size: 2.5em;
+    color: #D32F2F;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
 /* Reset some default styles */
 body, h1, p {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
@@ -15,48 +31,32 @@ body {
     padding: 10px;
 }
 
-/* Define the custom font */
-@font-face {
-    font-family: 'Hanford Script';
-    src: url('font.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Apply the custom font to specific text */
-header h1 {
-    font-family: 'Hanford Script', sans-serif;
-    font-size: 2.5em;
-    color: #D32F2F;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin: 20px;
-    padding: 10px;
+header {
+    background: #388E3C;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .message {
-  margin: 4px;
-
-  text-align: center;
-
-  max-width: 600px;
-
-  background-color: #fff8e1;
-
-  padding: 15px;
-
-  border-radius: 30px;
-
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 4px;
+    text-align: center;
+    max-width: 600px;
+    background-color: #fff8e1;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .message p:first-child {
-  font-size: 1.6em;
-
-  color: #000000;
-
-  font-weight: bold;
-
-  margin-bottom: 10px;
+    font-size: 1.6em;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .message p {
@@ -98,7 +98,7 @@ header h1 {
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform ver;
+    transition: transform 0.3s ease;
 }
 
 .color-block:hover {
@@ -136,7 +136,7 @@ footer {
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
     object-fit: cover;
-}
+    }
 
 /* Login overlay styles */
 .login-overlay {
