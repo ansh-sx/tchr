@@ -1,6 +1,6 @@
 // Object containing messages for each teacher
 const teachers = {
-    "Mrs. Newton": {
+    "Surbhi": {
         message: "We promise to remember all your physics lessons, but only because you’ve made sure we can’t forget them even in our dreams! Between your 'gravitational' stare and 'magnetic' personality, you've got us all orbiting around you. Thank you for making physics as spicy as masala chai, and as unforgettable as a Bollywood plot twist!",
         image: "image0.jpg"
     },
